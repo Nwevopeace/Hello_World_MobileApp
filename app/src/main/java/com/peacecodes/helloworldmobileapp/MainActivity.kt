@@ -14,13 +14,13 @@ import android.widget.TextView
      }
 
      fun onDecreaseClick(view: View) {
-         count++
+         count--
          val textView = findViewById<TextView>(R.id.textView)
          textView.text = " $count"
      }
 
      fun onIncreaseClick(view: View) {
-         count--
+         count++
          val textView = findViewById<TextView>(R.id.textView)
          textView.text = "  $count"
      }
